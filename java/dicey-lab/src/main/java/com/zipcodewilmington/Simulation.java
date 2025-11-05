@@ -29,7 +29,6 @@ public class Simulation {
             String row = getRow((int) (percentage*100));
             String result = String.format("%2d : %9d: %.2f ", i, this.results.bins[i], percentage) + row;
             System.out.println(result);
-            // System.out.println(String.valueOf(i) + ": " + String.valueOf(this.results.bins[i]));
         }
     }
 
